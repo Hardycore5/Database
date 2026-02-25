@@ -6,3 +6,8 @@ Introducing the repository as a personal learning journal dedicated to understan
 ## Table of Contents
 - [My Goals](goals.md)
 - [My Notes](notes.md)
+
+## Tools & Platforms
+- GitHub — where I document and store everything
+- W3Schools — where I practice SQL
+- freeCodeCamp — where I watch and follow lessons
