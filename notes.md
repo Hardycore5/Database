@@ -273,3 +273,14 @@ of a textbook to find a word instantly.
 Indexes make reading data faster but they do not 
 change the data itself.
 
+## What is a JOIN?
+A JOIN is a SQL command that combines information 
+from two or more tables into one result.
+
+Tables are joined based on a column they share — 
+usually a primary key and a foreign key.
+
+Example: A "Students" table and a "Classes" table 
+can be joined using the Student ID they both share,
+so you can see each student's name AND their class 
+all in one result.
