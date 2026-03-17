@@ -29,3 +29,5 @@ Introducing the repository as a personal learning journal dedicated to understan
 - GitHub — where I document and store everything
 - W3Schools — where I practice SQL
 - freeCodeCamp — where I watch and follow lessons
+
+- Day 40: Completed all topic-specific files — sql-basics.md, database-types.md, schema-design.md, and glossary.md. Repository is really taking shape now!
