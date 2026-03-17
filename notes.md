@@ -113,3 +113,16 @@ the students table" — every single column.
 
 It is useful when you want to see the full picture 
 instead of just one column.
+
+## The WHERE Clause
+WHERE is used to filter results. Instead of showing 
+everything, it shows only the rows that match a condition.
+
+Example:
+SELECT name FROM students WHERE age = 10;
+
+In plain English: "Show me the names of only the 
+students who are 10 years old."
+
+Without WHERE — you get everything.
+With WHERE — you get only what you need.
