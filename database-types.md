@@ -40,3 +40,17 @@ Examples:
 Best used when:
 Your information changes frequently, is unstructured, 
 or needs to be stored and retrieved very quickly.
+
+## SQL vs NoSQL — When to Use Each
+
+| Feature | SQL | NoSQL |
+|---|---|---|
+| Structure | Fixed tables and columns | Flexible, varies by type |
+| Best for | Structured, organized data | Unstructured, changing data |
+| Examples | MySQL, PostgreSQL | MongoDB, Firebase |
+| Relationships | Strong relationships between tables | Limited relationships |
+| Scalability | Scales vertically | Scales horizontally |
+
+Simple rule:
+- Use SQL when your data is structured and organized.
+- Use NoSQL when your data is flexible or changes often.
