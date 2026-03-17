@@ -141,3 +141,10 @@ FROM students
 LEFT JOIN classes ON students.id = classes.student_id;
 Plain English: "Show me ALL students and their class 
 even those without a class assigned yet."
+
+## How to Use This File
+This file is your personal SQL reference guide. 
+Whenever you forget how a command works, come here first.
+Each section contains the syntax, an example, and a 
+plain English explanation.
+Use it like a dictionary — look up the command you need!
