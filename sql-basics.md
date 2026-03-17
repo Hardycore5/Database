@@ -41,3 +41,16 @@ Common comparison operators:
 - >  means greater than
 - <  means less than
 - != means not equal to
+
+## INSERT INTO
+Used to add a brand new row into a table.
+
+Syntax:
+INSERT INTO table_name (column1, column2) 
+VALUES (value1, value2);
+
+Example:
+INSERT INTO students (name, age) VALUES ('Emeka', 10);
+
+Plain English: "Add a new student called Emeka 
+who is 10 years old into the students table."
