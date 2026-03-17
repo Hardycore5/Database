@@ -163,3 +163,24 @@ unnecessarily. Normalization helps remove redundancy.
 **Data Integrity**
 The accuracy and consistency of data stored in a database.
 Good schema design and constraints protect data integrity.
+
+## Additional Design Terms
+
+**Attribute**
+A property or characteristic of an entity. 
+In a table, each column represents an attribute.
+
+**Entity**
+A real-world object or concept represented as a table.
+Example: Student, Class, and Teacher are all entities.
+
+**Relationship**
+A connection between two entities (tables) in a database.
+
+**Tuple**
+A formal word for a row or record in a table.
+
+**Cardinality**
+Describes how many instances of one entity relate 
+to instances of another.
+Example: One teacher can have MANY students.
