@@ -82,6 +82,19 @@ No two students can share the same ID — that is the primary key.
 SELECT is the SQL command used to retrieve (read) data 
 from a database table.
 
+## Breaking Down a SELECT Statement
+
+SELECT name FROM students;
+
+- SELECT — means "show me"
+- name — is the column you want to see
+- FROM — means "look inside this table"
+- students — is the name of the table
+- ; — the semicolon means "end of instruction"
+
+So the full sentence in plain English is:
+"Show me the name column from the students table."
+
 It is like asking the database: "Show me this information."
 
 Basic example:
