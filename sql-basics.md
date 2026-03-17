@@ -71,3 +71,18 @@ and change his age to 11."
 IMPORTANT: Always use WHERE with UPDATE!
 Without WHERE, every single row in the table 
 will be changed — not just the one you want.
+
+## DELETE
+Used to permanently remove a row from a table.
+
+Syntax:
+DELETE FROM table_name WHERE condition;
+
+Example:
+DELETE FROM students WHERE name = 'Emeka';
+
+Plain English: "Remove Emeka from the students table."
+
+IMPORTANT: Always use WHERE with DELETE!
+Without WHERE, every single row in the table 
+will be deleted forever — there is no undo button!
