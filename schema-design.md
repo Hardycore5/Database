@@ -85,3 +85,22 @@ not just one of them.
 Achieving 2NF usually means splitting one large table 
 into two smaller, more focused tables. This keeps 
 each table responsible for only one thing.
+
+## Third Normal Form (3NF)
+A table is in Third Normal Form when:
+1. It already follows Second Normal Form (2NF)
+2. Every non-key column depends ONLY on the primary key
+
+In simple terms — no column should depend on 
+another non-key column. Every column must answer 
+directly to the primary key alone.
+
+Example of BREAKING 3NF:
+If a Students table has a "City" column AND a 
+"Country" column — Country depends on City, 
+not on the Student ID. That breaks 3NF.
+
+Fix: Move City and Country into their own separate table
+and link it back using a key.
+
+3NF produces the cleanest, most efficient database design.
