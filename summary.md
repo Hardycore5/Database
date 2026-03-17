@@ -44,3 +44,20 @@ Essential clauses:
 
 Most important rule:
 Always use WHERE with UPDATE and DELETE!
+
+## Types of Databases
+
+Relational (SQL) Databases:
+- Store data in structured tables connected through keys
+- Best for organized, structured data
+- Examples: MySQL, PostgreSQL, SQLite
+
+Non-Relational (NoSQL) Databases:
+- Store data in flexible formats
+- Best for rapidly changing or unstructured data
+- Examples: MongoDB, Redis, Firebase
+
+The rule of thumb:
+- Structured data with clear relationships — use SQL
+- Flexible data that changes shape often — use NoSQL
+Many real-world applications use both together.
