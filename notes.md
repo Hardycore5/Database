@@ -30,3 +30,11 @@ going down — just like a chart in school.
 
 Example: A table called "Students" might have columns for 
 Name, Age, and Class, with each student taking up one row.
+
+## What is a Row?
+A row (also called a record) is one complete entry in a table.
+It holds all the information about one single thing.
+
+Example: In a Students table, one row might be:
+Name: Emeka | Age: 10 | Class: Grade 5
+That entire line is one row.
