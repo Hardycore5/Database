@@ -11,3 +11,11 @@
 6. [W3Schools SQL Index](https://www.w3schools.com/sql/sql_create_index.asp)
    — Explains what database indexes are and how they 
    help speed up data retrieval in large databases.
+
+7. [W3Schools Database Design](https://www.w3schools.com/sql/sql_foreignkey.asp)
+   — Explains schema design, foreign keys, and how 
+   tables are connected in a relational database.
+
+8. [Lucidchart Normalization Guide](https://www.lucidchart.com/pages/database-diagram/database-normalization)
+   — A clear visual guide explaining normalization 
+   and the different normal forms with examples.
