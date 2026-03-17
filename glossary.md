@@ -184,3 +184,22 @@ A formal word for a row or record in a table.
 Describes how many instances of one entity relate 
 to instances of another.
 Example: One teacher can have MANY students.
+
+## Advanced Terms
+
+**ACID**
+Four properties that guarantee reliable transactions:
+Atomicity, Consistency, Isolation, Durability.
+
+**Transaction**
+A sequence of SQL operations treated as one unit.
+Either ALL succeed or NONE of them do.
+
+**Stored Procedure**
+A saved set of SQL commands that can be reused.
+
+**View**
+A virtual table created from a SELECT query.
+
+**Backup**
+A saved copy of the database for recovery purposes.
