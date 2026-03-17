@@ -121,3 +121,25 @@ or descending (DESC) order.
 **LIMIT**
 Used to restrict the number of rows returned 
 by a SELECT query.
+
+## Data Types
+
+**Data Type**
+A rule that defines what kind of information can be 
+stored in a specific column of a table.
+
+**VARCHAR**
+A data type for storing short text — like names or titles.
+Example: name VARCHAR(100)
+
+**INTEGER**
+A data type for storing whole numbers.
+Example: age INTEGER
+
+**BOOLEAN**
+A data type that stores only TRUE or FALSE.
+Example: is_enrolled BOOLEAN
+
+**DATE**
+A data type for storing dates in YYYY-MM-DD format.
+Example: birthday DATE
