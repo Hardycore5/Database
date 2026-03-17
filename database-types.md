@@ -54,3 +54,24 @@ or needs to be stored and retrieved very quickly.
 Simple rule:
 - Use SQL when your data is structured and organized.
 - Use NoSQL when your data is flexible or changes often.
+
+## Document Databases
+A document database is a type of NoSQL database that 
+stores information as documents — similar to JSON files.
+
+Each document can have a different structure, making it 
+very flexible for storing complex or changing data.
+
+Example of a document:
+{
+  "name": "Emeka",
+  "age": 10,
+  "class": "Grade 5",
+  "subjects": ["Maths", "English", "Science"]
+}
+
+Popular document databases:
+- MongoDB
+- CouchDB
+
+Best used when: Your data has varying fields and structures.
