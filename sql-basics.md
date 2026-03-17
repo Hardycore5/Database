@@ -103,3 +103,19 @@ This shows students from oldest to youngest.
 
 - ASC = ascending (smallest to biggest, A to Z)
 - DESC = descending (biggest to smallest, Z to A)
+
+## LIMIT
+Used to restrict how many rows are returned 
+by a SELECT query.
+
+Syntax:
+SELECT column_name FROM table_name LIMIT number;
+
+Example:
+SELECT name FROM students LIMIT 5;
+
+Plain English: "Show me only the first 5 student 
+names — not all of them."
+
+LIMIT is very useful when tables have thousands 
+or millions of rows and you only need to see a few.
