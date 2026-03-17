@@ -258,4 +258,18 @@ from the table — not all of them.
 LIMIT is very useful when tables have thousands 
 of rows and you only need to see a few at a time.
 
+## What is a Database Index?
+A database index is a structure that helps the database 
+find information faster.
+
+Without an index — the database checks every single row 
+one by one until it finds what it needs. 
+This is slow when there are millions of rows!
+
+With an index — the database jumps straight to the 
+right place, just like using the index at the back 
+of a textbook to find a word instantly.
+
+Indexes make reading data faster but they do not 
+change the data itself.
 
