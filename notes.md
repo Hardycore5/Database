@@ -53,3 +53,11 @@ language used to communicate with a database.
 Just like you use English to talk to people, you use 
 SQL to talk to a database — to ask it for information, 
 add new information, change it, or delete it.
+
+## What is a Relational Database?
+A relational database is a type of database that stores 
+information in tables that are connected to each other.
+
+Example: A "Students" table and a "Classes" table can be 
+connected so you know which student belongs to which class.
+This connection between tables is called a relationship.
