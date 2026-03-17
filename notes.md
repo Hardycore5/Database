@@ -45,3 +45,11 @@ of information in a table. It goes from top to bottom.
 
 Example: In a Students table, the "Age" column would show 
 the age of every single student listed in the table.
+
+## What is SQL?
+SQL stands for Structured Query Language. It is the 
+language used to communicate with a database.
+
+Just like you use English to talk to people, you use 
+SQL to talk to a database — to ask it for information, 
+add new information, change it, or delete it.
