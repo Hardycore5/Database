@@ -26,3 +26,21 @@ Key components:
 Databases power almost every app in the world — 
 from WhatsApp storing messages to Instagram 
 storing photos and followers.
+
+## SQL — The Language of Databases
+SQL is how you communicate with a relational database.
+
+The four core operations:
+- SELECT — retrieve data from a table
+- INSERT INTO — add new data to a table
+- UPDATE — change existing data in a table
+- DELETE — remove data from a table
+
+Essential clauses:
+- WHERE — filter results by a condition
+- ORDER BY — sort results ascending or descending
+- LIMIT — restrict how many results are returned
+- JOIN — combine rows from two or more tables
+
+Most important rule:
+Always use WHERE with UPDATE and DELETE!
