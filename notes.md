@@ -243,4 +243,19 @@ Example: If a student has not been given a grade yet,
 their grade column would be NULL — 
 because the information simply does not exist yet.
 
+## The LIMIT Clause
+LIMIT is used to control how many rows the database 
+returns to you at once.
+
+Instead of showing 1000 results, you can say 
+"just show me the first 5."
+
+Example:
+SELECT name FROM students LIMIT 5;
+This shows only the first 5 student names 
+from the table — not all of them.
+
+LIMIT is very useful when tables have thousands 
+of rows and you only need to see a few at a time.
+
 
