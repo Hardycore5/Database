@@ -284,3 +284,19 @@ Example: A "Students" table and a "Classes" table
 can be joined using the Student ID they both share,
 so you can see each student's name AND their class 
 all in one result.
+
+## What is an INNER JOIN?
+An INNER JOIN returns only the rows where there is a 
+matching value in BOTH tables.
+
+If a row in one table has no match in the other table,
+it is left out completely.
+
+Example:
+SELECT students.name, classes.class_name
+FROM students
+INNER JOIN classes ON students.id = classes.student_id;
+
+Plain English: "Show me the name of each student 
+AND the class they belong to — 
+but only if they are matched in both tables."
