@@ -203,3 +203,23 @@ A virtual table created from a SELECT query.
 
 **Backup**
 A saved copy of the database for recovery purposes.
+
+## Transaction and ACID Definitions
+
+**ACID Compliance**
+When a database fully supports all four ACID properties.
+Most relational databases like MySQL are ACID compliant.
+
+**Atomicity**
+The guarantee that a transaction is all or nothing.
+
+**Consistency**
+The guarantee that a transaction keeps the database valid.
+
+**Isolation**
+The guarantee that transactions do not interfere 
+with each other.
+
+**Durability**
+The guarantee that completed transactions are 
+saved permanently.
