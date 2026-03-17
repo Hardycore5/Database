@@ -1,7 +1,10 @@
 ## My Questions
-
 1. What is a database?
-2. What is SQL used for?
-3. What is the difference between a row and a column?
-4. What is a primary key?
-5. What is the difference between SQL and NoSQL?
+   Answer: A database is an organized collection of information 
+   stored on a computer, managed by software called a DBMS. 
+   It stores data neatly so it can be found and used quickly.
+2. 
+3. What is SQL used for?
+4. What is the difference between a row and a column?
+5. What is a primary key?
+6. What is the difference between SQL and NoSQL?
