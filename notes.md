@@ -61,3 +61,11 @@ information in tables that are connected to each other.
 Example: A "Students" table and a "Classes" table can be 
 connected so you know which student belongs to which class.
 This connection between tables is called a relationship.
+
+## What is a Primary Key?
+A primary key is a unique identifier for each row in a table.
+It makes sure no two rows are exactly the same.
+
+Example: In a Students table, each student might have a 
+unique Student ID like 001, 002, 003.
+No two students can share the same ID — that is the primary key.
