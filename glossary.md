@@ -143,3 +143,23 @@ Example: is_enrolled BOOLEAN
 **DATE**
 A data type for storing dates in YYYY-MM-DD format.
 Example: birthday DATE
+
+## Database Design Terms
+
+**Record**
+Another word for a row — a single complete entry in a table.
+
+**Field**
+Another word for a column — a specific category of data.
+
+**Constraint**
+A rule applied to a column to protect data accuracy.
+Example: NOT NULL means a column cannot be left empty.
+
+**Redundancy**
+When the same data is stored in more than one place 
+unnecessarily. Normalization helps remove redundancy.
+
+**Data Integrity**
+The accuracy and consistency of data stored in a database.
+Good schema design and constraints protect data integrity.
