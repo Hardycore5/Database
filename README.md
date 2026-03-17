@@ -31,3 +31,21 @@ Introducing the repository as a personal learning journal dedicated to understan
 - freeCodeCamp — where I watch and follow lessons
 
 - Day 40: Completed all topic-specific files — sql-basics.md, database-types.md, schema-design.md, and glossary.md. Repository is really taking shape now!
+
+## Lessons Learned
+
+1. Small consistent steps beat large infrequent efforts.
+   Every single commit moved the project forward.
+   100 small steps became something huge.
+
+2. Documenting as you learn deepens understanding.
+   Writing things in your own words forces you to 
+   truly understand them — not just memorize them.
+
+3. Organizing knowledge makes it last longer.
+   Dedicated files for different topics make 
+   knowledge easy to find and build upon later.
+
+4. Professional developers work exactly this way.
+   Incremental commits and consistent progress are 
+   the habits of great developers everywhere.
