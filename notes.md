@@ -22,3 +22,11 @@ Examples of popular DBMS software:
 - MySQL
 - PostgreSQL
 - SQLite
+
+## What is a Table?
+A table is how information is stored inside a database. 
+It looks like a grid with rows going across and columns 
+going down — just like a chart in school.
+
+Example: A table called "Students" might have columns for 
+Name, Age, and Class, with each student taking up one row.
