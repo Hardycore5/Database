@@ -14,6 +14,11 @@ Introducing the repository as a personal learning journal dedicated to understan
   SELECT, INSERT INTO, UPDATE, and DELETE. 
   Learned why WHERE is so important with UPDATE and DELETE. 
   Also learned about data types. Feeling like a real developer!
+- Day 25: HALFWAY THERE! 50 commits completed! 
+  Covered NULL, ORDER BY, LIMIT, database indexes, 
+  and JOINs — including INNER JOIN and LEFT JOIN. 
+  Also answered all five original questions. 
+  The database knowledge is really building up now!
 - Week 1 Summary: Set up the full repository structure. Created README, goals, notes, resources, and questions files. Foundation is complete and ready to build on!
 
 ## Table of Contents
