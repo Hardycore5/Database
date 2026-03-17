@@ -203,5 +203,16 @@ always goes into the right place.
 Choosing the right data type for each column keeps 
 your database clean and accurate.
 
+## What is NULL?
+NULL means a field has no value at all. It is completely empty.
+
+It is NOT the same as zero or a blank space.
+- 0 means the number zero
+- "" means an empty word
+- NULL means nothing was ever put there at all
+
+Example: If a student has not been given a grade yet,
+their grade column would be NULL — 
+because the information simply does not exist yet.
 
 
