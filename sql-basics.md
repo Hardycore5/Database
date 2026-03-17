@@ -86,3 +86,20 @@ Plain English: "Remove Emeka from the students table."
 IMPORTANT: Always use WHERE with DELETE!
 Without WHERE, every single row in the table 
 will be deleted forever — there is no undo button!
+
+## ORDER BY
+Used to sort the results of a SELECT query 
+in ascending or descending order.
+
+Syntax:
+SELECT column_name FROM table_name ORDER BY column_name ASC;
+
+Examples:
+SELECT name FROM students ORDER BY name ASC;
+This shows student names from A to Z.
+
+SELECT name FROM students ORDER BY age DESC;
+This shows students from oldest to youngest.
+
+- ASC = ascending (smallest to biggest, A to Z)
+- DESC = descending (biggest to smallest, Z to A)
