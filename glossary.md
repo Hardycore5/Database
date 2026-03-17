@@ -99,3 +99,25 @@ Always use with WHERE to avoid deleting everything.
 **JOIN**
 A SQL operation that combines rows from two or more tables 
 based on a shared column between them.
+
+## SQL Clauses and JOIN Types
+
+**INNER JOIN**
+Returns only the rows where there is a matching value 
+in both tables being joined.
+
+**LEFT JOIN**
+Returns all rows from the left table, and matching rows 
+from the right table. Non-matching rows show NULL.
+
+**WHERE Clause**
+Used to filter query results — showing only rows 
+that meet a specific condition.
+
+**ORDER BY**
+Used to sort query results in ascending (ASC) 
+or descending (DESC) order.
+
+**LIMIT**
+Used to restrict the number of rows returned 
+by a SELECT query.
