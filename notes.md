@@ -126,3 +126,15 @@ students who are 10 years old."
 
 Without WHERE — you get everything.
 With WHERE — you get only what you need.
+
+## The INSERT INTO Statement
+INSERT INTO is the SQL command used to add a new record 
+(row) into a table.
+
+It is like telling the database: "Add this new entry."
+
+Basic example:
+INSERT INTO students (name, age) VALUES ('Emeka', 10);
+
+This adds a new student called Emeka who is 10 years old 
+into the students table.
