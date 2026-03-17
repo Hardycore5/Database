@@ -211,6 +211,34 @@ It is NOT the same as zero or a blank space.
 - "" means an empty word
 - NULL means nothing was ever put there at all
 
+- ## The ORDER BY Clause
+ORDER BY is used to sort the results of a SELECT query 
+in a specific order.
+
+You can sort in two ways:
+- ASC — ascending order (smallest to biggest, A to Z)
+- DESC — descending order (biggest to smallest, Z to A)
+
+Example:
+SELECT name FROM students ORDER BY name ASC;
+This shows all student names arranged from A to Z.
+
+SELECT name FROM students ORDER BY age DESC;
+This shows students arranged from oldest to youngest.## The ORDER BY Clause
+ORDER BY is used to sort the results of a SELECT query 
+in a specific order.
+
+You can sort in two ways:
+- ASC — ascending order (smallest to biggest, A to Z)
+- DESC — descending order (biggest to smallest, Z to A)
+
+Example:
+SELECT name FROM students ORDER BY name ASC;
+This shows all student names arranged from A to Z.
+
+SELECT name FROM students ORDER BY age DESC;
+This shows students arranged from oldest to youngest.
+
 Example: If a student has not been given a grade yet,
 their grade column would be NULL — 
 because the information simply does not exist yet.
