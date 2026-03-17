@@ -138,3 +138,18 @@ INSERT INTO students (name, age) VALUES ('Emeka', 10);
 
 This adds a new student called Emeka who is 10 years old 
 into the students table.
+
+## Breaking Down INSERT INTO
+
+INSERT INTO students (name, age) VALUES ('Emeka', 10);
+
+- INSERT INTO — means "add a new row into this table"
+- students — is the name of the table
+- (name, age) — these are the columns you are filling in
+- VALUES — means "here is the information to put in"
+- ('Emeka', 10) — Emeka goes into the name column, 
+  10 goes into the age column
+- ; — end of instruction
+
+Plain English: "Add a new student called Emeka 
+who is 10 years old into the students table."
