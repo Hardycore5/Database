@@ -11,4 +11,8 @@
    A column goes DOWN the table and holds ONE type of 
    information for everything (like everyone's age).
 5. What is a primary key?
+   Answer: A primary key is a unique ID that belongs to only 
+   one row in a table. It makes sure every row is different 
+   and can always be found. Just like how your school ID 
+   belongs only to you and nobody else.
 6. What is the difference between SQL and NoSQL?
