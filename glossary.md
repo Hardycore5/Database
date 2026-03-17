@@ -77,3 +77,25 @@ unnecessary repetition and improve data accuracy.
 A special marker meaning a field has no value at all.
 Not the same as zero or an empty string — it means 
 the information is completely absent.
+
+## Core SQL Commands
+
+**SELECT**
+The SQL command used to retrieve data from a table.
+Example: SELECT name FROM students;
+
+**INSERT INTO**
+The SQL command used to add a new row into a table.
+Example: INSERT INTO students (name, age) VALUES ('Emeka', 10);
+
+**UPDATE**
+The SQL command used to change existing data in a table.
+Always use with WHERE to avoid changing every row.
+
+**DELETE**
+The SQL command used to permanently remove a row from a table.
+Always use with WHERE to avoid deleting everything.
+
+**JOIN**
+A SQL operation that combines rows from two or more tables 
+based on a shared column between them.
