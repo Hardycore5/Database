@@ -191,5 +191,17 @@ data types set the rules for each column.
 This makes sure the right kind of information 
 always goes into the right place.
 
+## Common SQL Data Types
+
+- INTEGER — stores whole numbers. Example: age = 10
+- VARCHAR — stores short text like names. Example: name = 'Emeka'
+- TEXT — stores longer text like descriptions
+- DATE — stores dates. Example: birthday = '2015-03-17'
+- BOOLEAN — stores only TRUE or FALSE. 
+  Example: is_enrolled = TRUE
+
+Choosing the right data type for each column keeps 
+your database clean and accurate.
+
 
 
