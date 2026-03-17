@@ -153,3 +153,16 @@ INSERT INTO students (name, age) VALUES ('Emeka', 10);
 
 Plain English: "Add a new student called Emeka 
 who is 10 years old into the students table."
+
+## The UPDATE Statement
+UPDATE is the SQL command used to change existing 
+information inside a table.
+
+It is like telling the database: "Go find this record 
+and change this part of it."
+
+Basic example:
+UPDATE students SET age = 11 WHERE name = 'Emeka';
+
+This finds Emeka in the students table and 
+changes his age to 11.
