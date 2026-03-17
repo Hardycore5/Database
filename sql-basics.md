@@ -54,3 +54,20 @@ INSERT INTO students (name, age) VALUES ('Emeka', 10);
 
 Plain English: "Add a new student called Emeka 
 who is 10 years old into the students table."
+
+## UPDATE
+Used to change existing information in a table.
+
+Syntax:
+UPDATE table_name SET column_name = new_value 
+WHERE condition;
+
+Example:
+UPDATE students SET age = 11 WHERE name = 'Emeka';
+
+Plain English: "Find Emeka in the students table 
+and change his age to 11."
+
+IMPORTANT: Always use WHERE with UPDATE!
+Without WHERE, every single row in the table 
+will be changed — not just the one you want.
