@@ -77,3 +77,14 @@ That Student ID comes from the "Students" table —
 making it a foreign key that links the two tables together.
 unique Student ID like 001, 002, 003.
 No two students can share the same ID — that is the primary key.
+
+## The SELECT Statement
+SELECT is the SQL command used to retrieve (read) data 
+from a database table.
+
+It is like asking the database: "Show me this information."
+
+Basic example:
+SELECT name FROM students;
+This asks the database to show all the names 
+from the students table.
