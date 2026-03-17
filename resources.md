@@ -8,3 +8,6 @@
 5. [SQLZoo](https://sqlzoo.net) 
    — A free website where you can practise writing real 
    SQL commands directly in your browser. Great for beginners!
+6. [W3Schools SQL Index](https://www.w3schools.com/sql/sql_create_index.asp)
+   — Explains what database indexes are and how they 
+   help speed up data retrieval in large databases.
