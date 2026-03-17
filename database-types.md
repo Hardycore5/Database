@@ -24,3 +24,19 @@ Examples:
 Best used when:
 Your information is structured, organized, and the 
 relationships between data are important.
+
+## NoSQL Databases
+A NoSQL database stores information in a flexible way 
+that does not always use tables.
+
+NoSQL stands for "Not Only SQL" — meaning it can store 
+information in many different formats.
+
+Examples:
+- MongoDB — stores data as flexible documents
+- Firebase — used in many mobile apps
+- Redis — stores data as simple key-value pairs
+
+Best used when:
+Your information changes frequently, is unstructured, 
+or needs to be stored and retrieved very quickly.
