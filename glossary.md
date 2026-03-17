@@ -54,3 +54,26 @@ add, update, or delete information. Written in SQL.
 **Index**
 A structure that helps the database find information 
 faster — like the index at the back of a textbook.
+
+## Terms S-N
+
+**SQL (Structured Query Language)**
+The standard language used to communicate with 
+a relational database.
+
+**NoSQL**
+A type of database that does not use traditional tables.
+Stores data in flexible formats like documents or key-value pairs.
+
+**Relational Database**
+A database that organizes data into tables connected 
+to each other through relationships using keys.
+
+**Normalization**
+The process of organizing a database to remove 
+unnecessary repetition and improve data accuracy.
+
+**NULL**
+A special marker meaning a field has no value at all.
+Not the same as zero or an empty string — it means 
+the information is completely absent.
