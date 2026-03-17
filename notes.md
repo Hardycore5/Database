@@ -353,3 +353,19 @@ Think of ACID like sending a package:
 
 These guarantees make databases trustworthy for 
 important systems like banking and hospitals.
+
+## What is a Database Transaction?
+A transaction is a sequence of SQL operations treated 
+as a single unit of work.
+
+The golden rule:
+Either ALL operations succeed together, 
+or NONE of them happen at all.
+
+Real world example — transferring money:
+Step 1 — Subtract money from your account
+Step 2 — Add money to your friend's account
+
+If Step 1 succeeds but Step 2 fails — money disappears!
+A transaction prevents this by making sure both steps 
+succeed together or both are cancelled together.
