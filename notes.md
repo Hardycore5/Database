@@ -12,3 +12,13 @@ I will keep updating it as I go.
 - Information is when data is given meaning. Example: 
   "John is 8 years old and lives in Nigeria."
 - Databases store data and help turn it into useful information.
+
+- ## What is a DBMS?
+A DBMS (Database Management System) is the software that 
+manages a database. It lets you store, find, update, and 
+delete information easily.
+
+Examples of popular DBMS software:
+- MySQL
+- PostgreSQL
+- SQLite
