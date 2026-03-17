@@ -300,3 +300,22 @@ INNER JOIN classes ON students.id = classes.student_id;
 Plain English: "Show me the name of each student 
 AND the class they belong to — 
 but only if they are matched in both tables."
+
+## What is a LEFT JOIN?
+A LEFT JOIN returns ALL rows from the left table, 
+and the matched rows from the right table.
+
+If there is no match in the right table, 
+the result shows NULL for those columns.
+
+Example:
+SELECT students.name, classes.class_name
+FROM students
+LEFT JOIN classes ON students.id = classes.student_id;
+
+Plain English: "Show me ALL students and their class — 
+but if a student has no class assigned yet, 
+still show their name and just leave the class as empty."
+
+Use LEFT JOIN when you want to keep everyone 
+from the first table even if they have no match.
