@@ -67,5 +67,13 @@ A primary key is a unique identifier for each row in a table.
 It makes sure no two rows are exactly the same.
 
 Example: In a Students table, each student might have a 
+
+## What is a Foreign Key?
+A foreign key is a column in one table that points to the 
+primary key in another table. It is how two tables are connected.
+
+Example: A "Report Cards" table might have a Student ID column.
+That Student ID comes from the "Students" table — 
+making it a foreign key that links the two tables together.
 unique Student ID like 001, 002, 003.
 No two students can share the same ID — that is the primary key.
