@@ -58,3 +58,14 @@ Introducing the repository as a personal learning journal dedicated to understan
 - Building a real project using everything learned here
 - Exploring ORMs — tools that let you work with databases 
   using regular programming languages instead of raw SQL
+
+## Updated Table of Contents
+- [My Goals](goals.md)
+- [My Notes](notes.md)
+- [My Resources](resources.md)
+- [My Questions](questions.md)
+- [SQL Basics Reference](sql-basics.md)
+- [Database Types](database-types.md)
+- [Schema Design](schema-design.md)
+- [Glossary](glossary.md)
+- [Project Summary](summary.md)
