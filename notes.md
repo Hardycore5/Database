@@ -38,3 +38,10 @@ It holds all the information about one single thing.
 Example: In a Students table, one row might be:
 Name: Emeka | Age: 10 | Class: Grade 5
 That entire line is one row.
+
+## What is a Column?
+A column (also called a field) is one specific category 
+of information in a table. It goes from top to bottom.
+
+Example: In a Students table, the "Age" column would show 
+the age of every single student listed in the table.
