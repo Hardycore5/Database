@@ -319,3 +319,19 @@ still show their name and just leave the class as empty."
 
 Use LEFT JOIN when you want to keep everyone 
 from the first table even if they have no match.
+
+## ACID Properties
+ACID is a set of four properties that guarantee 
+database transactions are processed reliably.
+
+- Atomicity — all or nothing. If one part fails,
+  the whole transaction is cancelled.
+
+- Consistency — a transaction always brings the 
+  database from one valid state to another.
+
+- Isolation — transactions do not interfere 
+  with each other even when running at the same time.
+
+- Durability — once completed, changes are saved 
+  permanently even if the computer crashes.
