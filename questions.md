@@ -39,3 +39,15 @@
    Simple version: SQL = structured and organized. 
    NoSQL = flexible and free-form.
 
+
+## Questions Review
+
+All five original questions have now been answered:
+1. What is a database? — Answered
+2. What is SQL used for? — Answered
+3. What is the difference between a row and a column? — Answered
+4. What is a primary key? — Answered
+5. What is the difference between SQL and NoSQL? — Answered
+
+Every question asked at the beginning of this project 
+has been fully answered through learning and documentation.
