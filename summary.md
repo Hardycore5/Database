@@ -61,3 +61,22 @@ The rule of thumb:
 - Structured data with clear relationships — use SQL
 - Flexible data that changes shape often — use NoSQL
 Many real-world applications use both together.
+
+## Schema Design and Normalization
+
+A schema is the blueprint of your database.
+
+Normalization removes unnecessary repetition:
+- 1NF — each column stores only one value per row
+- 2NF — every column depends on the full primary key
+- 3NF — every column depends only on the primary key
+
+ACID properties guarantee reliability:
+- Atomicity — all or nothing
+- Consistency — always valid
+- Isolation — no interference
+- Durability — permanently saved
+
+Most important lesson:
+A strong foundation makes everything built on 
+top of it more reliable. Design well from the start.
