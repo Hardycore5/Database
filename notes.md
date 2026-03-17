@@ -101,3 +101,15 @@ Basic example:
 SELECT name FROM students;
 This asks the database to show all the names 
 from the students table.
+
+## What Does SELECT * Mean?
+The * symbol in SQL means "everything" or "all columns."
+
+Example:
+SELECT * FROM students;
+
+This means: "Show me ALL the information from 
+the students table" — every single column.
+
+It is useful when you want to see the full picture 
+instead of just one column.
