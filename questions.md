@@ -23,4 +23,19 @@
    one row in a table. It makes sure every row is different 
    and can always be found. Just like how your school ID 
    belongs only to you and nobody else.
-5. What is the difference between SQL and NoSQL?
+   5. What is the difference between SQL and NoSQL?
+   Answer: 
+   - SQL databases store information in neat tables with 
+     rows and columns — like a spreadsheet. They are great 
+     when your information is structured and organized.
+     Examples: MySQL, PostgreSQL, SQLite.
+
+   - NoSQL databases store information in a more flexible 
+     way — not always in tables. They are great when your 
+     information changes a lot or does not fit neatly 
+     into rows and columns.
+     Examples: MongoDB, Firebase.
+
+   Simple version: SQL = structured and organized. 
+   NoSQL = flexible and free-form.
+
