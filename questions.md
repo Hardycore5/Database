@@ -51,3 +51,17 @@ All five original questions have now been answered:
 
 Every question asked at the beginning of this project 
 has been fully answered through learning and documentation.
+
+## New Questions From Deeper Learning
+
+6. How does database indexing affect write performance?
+   Indexes speed up reading but can slow down writing 
+   because the index must be updated with every new row.
+
+7. What is ACID compliance and why does it matter?
+   ACID guarantees reliable transactions — critical 
+   in banking and systems where errors cannot be tolerated.
+
+8. When should normalization be avoided?
+   When too many JOINs slow down performance, some 
+   controlled redundancy is acceptable as a trade-off.
