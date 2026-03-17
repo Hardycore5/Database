@@ -119,3 +119,25 @@ names — not all of them."
 
 LIMIT is very useful when tables have thousands 
 or millions of rows and you only need to see a few.
+
+## JOINs
+Used to combine rows from two or more tables 
+based on a shared column.
+
+INNER JOIN — returns only rows with a match in BOTH tables.
+Example:
+SELECT students.name, classes.class_name
+FROM students
+INNER JOIN classes ON students.id = classes.student_id;
+Plain English: "Show me students AND their class 
+but only where both match."
+
+LEFT JOIN — returns ALL rows from the left table 
+and matched rows from the right table.
+If there is no match, the right side shows NULL.
+Example:
+SELECT students.name, classes.class_name
+FROM students
+LEFT JOIN classes ON students.id = classes.student_id;
+Plain English: "Show me ALL students and their class 
+even those without a class assigned yet."
