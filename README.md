@@ -49,3 +49,12 @@ Introducing the repository as a personal learning journal dedicated to understan
 4. Professional developers work exactly this way.
    Incremental commits and consistent progress are 
    the habits of great developers everywhere.
+
+## What's Next
+
+- Advanced SQL — subqueries, stored procedures, and views
+- Database security — user permissions and access control
+- Cloud databases — AWS RDS, Firebase, and Supabase
+- Building a real project using everything learned here
+- Exploring ORMs — tools that let you work with databases 
+  using regular programming languages instead of raw SQL
