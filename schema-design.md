@@ -28,3 +28,20 @@ Example schema for a school database:
 - Students table: id, name, age, class_id
 - Classes table: id, class_name, teacher_name
 - The class_id in Students connects to the id in Classes
+
+## What is Normalization?
+Normalization is the process of organizing a database 
+to reduce unnecessary repetition of data.
+
+Imagine writing every student's class name in full 
+on every single row — "Primary Five East" repeated 
+500 times. That wastes space and causes problems 
+if the class name ever changes!
+
+Normalization solves this by:
+- Removing repeated data
+- Storing each piece of information in only one place
+- Connecting tables through keys instead of repeating values
+
+A normalized database is cleaner, smaller, 
+and much easier to maintain.
