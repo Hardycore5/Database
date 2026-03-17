@@ -45,3 +45,25 @@ Normalization solves this by:
 
 A normalized database is cleaner, smaller, 
 and much easier to maintain.
+
+## First Normal Form (1NF)
+The first rule of normalization is called First Normal Form.
+
+A table is in First Normal Form when:
+1. Every column contains only one single value per row
+2. Every row is unique — no two rows are exactly the same
+3. Each column has a clear and consistent data type
+
+Example of BREAKING 1NF:
+| Name  | Subjects                |
+|-------|-------------------------|
+| Emeka | Maths, English, Science |
+
+Example of FOLLOWING 1NF:
+| Name  | Subject |
+|-------|---------|
+| Emeka | Maths   |
+| Emeka | English |
+| Emeka | Science |
+
+Each box contains only one value — clean and organized!
