@@ -180,5 +180,16 @@ This changes ONLY Emeka's age.
 
 Always double check your WHERE clause before updating!
 
+## What Are Data Types?
+A data type tells a database column what kind of 
+information it is allowed to store.
+
+Just like how a "Name" box should only have letters 
+and an "Age" box should only have numbers — 
+data types set the rules for each column.
+
+This makes sure the right kind of information 
+always goes into the right place.
+
 
 
