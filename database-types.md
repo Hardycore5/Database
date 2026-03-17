@@ -75,3 +75,22 @@ Popular document databases:
 - CouchDB
 
 Best used when: Your data has varying fields and structures.
+
+## Key-Value Databases
+A key-value database is the simplest type of NoSQL database.
+It stores information as pairs — a KEY and a VALUE.
+
+Think of it like a dictionary:
+- The KEY is the word you look up
+- The VALUE is the definition you get back
+
+Example:
+- Key: "student_001" — Value: "Emeka"
+- Key: "student_002" — Value: "Chidi"
+
+Popular key-value databases:
+- Redis
+- DynamoDB
+
+Best used when: You need to store and retrieve simple 
+information very quickly — like user sessions or settings.
