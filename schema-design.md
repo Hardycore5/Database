@@ -67,3 +67,21 @@ Example of FOLLOWING 1NF:
 | Emeka | Science |
 
 Each box contains only one value — clean and organized!
+
+## Second Normal Form (2NF)
+A table is in Second Normal Form when:
+1. It already follows First Normal Form (1NF)
+2. Every non-key column depends on the WHOLE primary key
+   — not just part of it
+
+This mainly applies to tables that have a 
+combined primary key (two columns together as the key).
+
+Example:
+If a table uses both Student ID and Subject as its key,
+then every other column must depend on BOTH together —
+not just one of them.
+
+Achieving 2NF usually means splitting one large table 
+into two smaller, more focused tables. This keeps 
+each table responsible for only one thing.
