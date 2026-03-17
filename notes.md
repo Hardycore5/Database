@@ -166,3 +166,17 @@ UPDATE students SET age = 11 WHERE name = 'Emeka';
 
 This finds Emeka in the students table and 
 changes his age to 11.
+## WARNING — Always Use WHERE With UPDATE!
+If you use UPDATE without WHERE, the database will 
+change EVERY single row in the table — not just the one you want.
+
+DANGEROUS example:
+UPDATE students SET age = 11;
+This changes EVERYONE'S age to 11. Not good!
+
+SAFE example:
+UPDATE students SET age = 11 WHERE name = 'Emeka';
+This changes ONLY Emeka's age. 
+
+Always double check your WHERE clause before updating!
+
